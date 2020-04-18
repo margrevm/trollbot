@@ -1,0 +1,3 @@
+[submodule "lib/external/SharpIR"]
+	path = lib/external/SharpIR
+	url = https://github.com/guillaume-rico/SharpIR.git
