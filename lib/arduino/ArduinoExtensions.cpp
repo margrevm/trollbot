@@ -21,19 +21,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+
 /**
- * @file config.h
- * @author Margreve Mike
+ * @file ArduinoExtensions.cpp
+ * @author Mike Margreve (mike.margreve@outlook.com)
+ * @brief Some useful functions that are not included in the standart Arduino library.
  * @version 1.0
- * @date 2020-04-18
- * @brief General configuration parameters for the Trollbot.
+ * @date 2020-04-20
  */
 
-#ifndef CONFIG_H
-#define CONFIG_H
-
-/* Sensor configuration */
-/* - Sharp infrared sensor */
-#define CONF_SHARP_MEDIAN_FILTER_NB_SAMPLES     5
-
-#endif
+float mapFloat(float value, float fromLow, float fromHigh, float toLow, float toHigh)
+{  
+  return (value - fromLow) * (toHigh - toLow) / (fromHigh - fromLow) + toLow;  
+}  

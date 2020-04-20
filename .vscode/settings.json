@@ -1,0 +1,6 @@
+{
+    "editor.someSetting": true,
+    "markdownlint.ignore": [
+        "lib/external/*/*.md",
+    ]
+}
