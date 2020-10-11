@@ -29,7 +29,8 @@ install:
 script:
     - platformio run
 
+# To exclude some branches from CI
 branches:
-  only:
+  except:
   - master
-  - dev
+  - feature/Logger 
