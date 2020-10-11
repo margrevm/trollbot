@@ -1,3 +1,6 @@
 [submodule "doc"]
 	path = doc
 	url = https://github.com/margrevm/trollbot.wiki.git
+[submodule "docs/wiki"]
+	path = docs/wiki
+	url = https://github.com/margrevm/trollbot.wiki.git
