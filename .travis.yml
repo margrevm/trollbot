@@ -28,3 +28,8 @@ install:
 
 script:
     - platformio run
+
+branches:
+  only:
+  - master
+  - dev
