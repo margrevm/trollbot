@@ -34,16 +34,29 @@ SOFTWARE.
 #ifndef IO_H
 #define IO_H
 
+/* TODO Pin attribution has to be tested */ 
+
 /* Analog Inputs */
+/* - Buttons */
+
 /* - Sharp infrared sensor */
-#define IO_A_SHARP_IR_RIGHT     A2
-#define IO_A_SHARP_IR_MIDDLE    A1
-#define IO_A_SHARP_IR_LEFT      A0
+#define IO_A_SHARP_IR_RIGHT         A2 
+#define IO_A_SHARP_IR_MIDDLE        A1 
+#define IO_A_SHARP_IR_LEFT          A0
 
 /* Analog Outputs */
 /* - None */
 
 /* Digital Inputs */
+/* - Wheel encoders */
+#define IO_ENCODER_LEFT             D2
+#define IO_ENCODER_LEFT             D3
+/* - Line sensors */
+#define IO_LINE_SENSOR_FAR_LEFT     D4
+#define IO_LINE_SENSOR_LEFT         D5
+#define IO_LINE_SENSOR_MIDDLE       D6
+#define IO_LINE_SENSOR_RIGHT        D7
+#define IO_LINE_SENSOR_FAR_RIGHT    D8
 
 /* Digital Outputs */
 
