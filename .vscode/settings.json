@@ -1,3 +1,8 @@
 {
-    "markdownlint.ignore": ["lib/external/*/*.md"]
+    "markdownlint.ignore": ["lib/external/**/*.md"],
+    "markdownlint.config": {
+        "MD041": false,
+    },
+    "plantuml.diagramsRoot": "docs/wiki/diagrams/",
+    "plantuml.exportOutDir": "docs/wiki/diagrams/"
 }
