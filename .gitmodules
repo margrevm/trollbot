@@ -1,3 +1,9 @@
 [submodule "doc"]
 	path = doc
 	url = https://github.com/margrevm/trollbot.wiki.git
+[submodule "lib/external/arduino-logger"]
+	path = lib/external/arduino-logger
+	url = https://github.com/embeddedartistry/arduino-logger.git
+[submodule "lib/external/arduino-printf"]
+	path = lib/external/arduino-printf
+	url = https://github.com/embeddedartistry/arduino-printf.git
