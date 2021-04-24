@@ -1,0 +1,21 @@
+{
+"name": "robot_lib",
+"version": "1.0.0",
+"description": "A generic robot library",
+"keywords": "Arduino",
+"authors":
+[
+    {
+    "name": "Mike Margreve",
+    "email": "mike.margreve@outlook.com",
+    "maintainer": true
+    },
+    {
+    "name": "Philippe Mertes",
+    "email": "mertesph@hotmail.de"
+    }
+],
+"license": "MIT",
+"frameworks": "*",
+"platforms": "*"
+}   
