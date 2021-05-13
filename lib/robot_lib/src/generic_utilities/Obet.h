@@ -49,20 +49,14 @@ public:
      * 
      * @return OBET (milliseconds)
      */
-    uint64_t getObetMs();
+    static uint64_t getObetMs();
 
     /**
      * @brief Get the OBET (onboard elapsed time since boot) in seconds
      * 
      * @return OBET (seconds)
      */
-    float getObetSec();
-
-
-
-private:
-    uint64_t _obet_ms;
-    float _obet_s;
+    static float getObetSec();
 };
 
 #endif
