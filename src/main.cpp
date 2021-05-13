@@ -1,20 +1,17 @@
 #include <Arduino.h>
 #include <LiquidCrystal_I2C.h>
-#include <platform/lcd/LCD.h>
+#include <platform/display/DisplayManager.h>
 #include <elapsedMillis.h>
+#include <config.h>
 
 
-LiquidCrystal_I2C lcd(0x20, 20, 4);  // set the LCD address to 0x27 for a 16 chars and 2 line display
 elapsedSeconds time_elapsed;
 unsigned long current_secs;
 
 void setup() {
   Serial.begin(9600);
-  // put your setup code here, to run once:
-  lcd.init();                      // initialize the lcd 
-  lcd.backlight();
 
-  show_splash_screen();
+  DisplayManager(LCD_ADDR, LCD_COLS, LCD_ROWS).show_splash_screen();
   current_secs = time_elapsed; 
 }
 

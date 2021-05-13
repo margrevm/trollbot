@@ -36,4 +36,11 @@ SOFTWARE.
 /* - Sharp infrared sensor */
 #define CONF_SHARP_MEDIAN_FILTER_NB_SAMPLES     5
 
+
+/* DisplayManager configuration */
+/* I2C LCD */
+#define LCD_ADDR 0x20
+#define LCD_COLS 20
+#define LCD_ROWS 4
+
 #endif
